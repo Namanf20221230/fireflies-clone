@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function TasksPage() { return <main className="mx-auto max-w-3xl px-6 py-12"><section className="rounded-xl border bg-white p-8"><h1 className="text-2xl font-semibold">Tasks</h1><p className="mt-2 text-sm text-slate-600">Action items are scoped to their source meeting. Open a meeting to review and update its persistent action items.</p><Link href="/meetings" className="mt-5 inline-block text-sm font-medium text-indigo-600">Browse meetings →</Link></section></main>; }

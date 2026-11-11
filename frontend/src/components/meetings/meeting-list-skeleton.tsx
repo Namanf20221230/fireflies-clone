@@ -1,0 +1,3 @@
+export function MeetingListSkeleton() {
+  return <div className="overflow-hidden rounded-xl border border-slate-200 bg-white"><div className="h-11 border-b border-slate-100 bg-slate-50" />{Array.from({ length: 6 }).map((_, index) => <div key={index} className="grid min-h-24 grid-cols-[minmax(220px,2fr)_130px_140px_90px] items-center gap-4 border-b border-slate-100 px-5 last:border-0"><div className="space-y-2"><div className="h-4 w-48 animate-pulse rounded bg-slate-100" /><div className="h-3 w-72 animate-pulse rounded bg-slate-100" /></div><div className="h-8 w-20 animate-pulse rounded-full bg-slate-100" /><div className="h-4 w-28 animate-pulse rounded bg-slate-100" /><div className="h-4 w-14 animate-pulse rounded bg-slate-100" /></div>)}</div>;
+}

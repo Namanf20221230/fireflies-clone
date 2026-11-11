@@ -1,0 +1,38 @@
+# Frontend
+node_modules/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Python
+backend/.venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.so
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Databases
+*.db
+*.db-journal
+backend/data/uploads/
+*.sqlite
+*.sqlite3
+
+# Builds and test caches
+build/
+dist/
+.pytest_cache/
+.coverage
+coverage/
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Tooling and OS
+.DS_Store
+*.log
